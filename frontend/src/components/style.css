@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'poppins', sans-serif;
+   height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.instasign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    /* border: 1px solid red; */
+    width: auto;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    /* border:  1px solid blue; */
+    width:400px;
+    box-shadow: 0 1px 1px 1px #22212438 ;
+    border-radius:  5px;
+    background: #ffffff;
+    align-items:center;
+    gap: 10px;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background: #1c89e1;
+}
+
+.logout {
+    background: #02010f;
+    width: auto;
+    top: 10px;
+    right: 20px;
+    padding: 15px 25px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+/* css for login and signup */
+.container h1 {
+    align-self: center;
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.input-box {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.input-box label {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d9d9d982;
+    color: #262626;
+    font-size: 16px;
+    font-weight: 500;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+.input-box input:focus {
+    background: #0000ff18;
+}
+
+.forgot {
+    align-self: center;
+    gap: 20px;
+}
+
+.forgot span {
+    font-size: 14px;
+    color: #000;
+    opacity: 0.8;
+}
+
+/* css for home page */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-self: center;
+}
+.user-details {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+}
+.profile-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.user-details span {
+    font-size: 15px;
+    color: #808080;
+}
+.user-details #bio {
+    font-size: 15px;
+    color: #ffffff;
+}
+.user-details #username {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.signup{
+    color:#2291ec;
+}
+.signin{
+    color:#2291ec;
+}
+
+.in{
+    margin-top: 100px;
+}
+
+.user{
+    background-color:black;
+    color: #ffffff;
+    width: max-content;
+}
