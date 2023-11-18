@@ -24,6 +24,7 @@ export default function Signup() {
           email,
           password,
           bio,
+        },{
           withCredentials: true,
           headers: {
             "Content-Type": "application/json",
@@ -96,7 +97,7 @@ export default function Signup() {
       <button onClick={handleSubmit}>Sign Up</button>
       <div className="forgot flex">
         <span>Forgot Password?</span>
-        <NavLink to="/signin"> <h4 className="signin"> Sign in </h4></NavLink>
+        <NavLink to="/signin"> <button className="signin"> Sign in </button></NavLink>
       </div>
     </form>
     </div>

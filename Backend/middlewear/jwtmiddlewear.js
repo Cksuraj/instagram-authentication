@@ -63,9 +63,10 @@ exports.Logoutvalidate = async (req, res, next) => {
       message: "The person is Authorised",
       username: paylode.username,
       email: paylode.email,
-      bio: paylode.bio,
+      bio: paylode.bio
     });
   next();
+
   } catch (error) {
     return res.status(400).json({
       success: false,
@@ -73,3 +74,4 @@ exports.Logoutvalidate = async (req, res, next) => {
     });
   }
 };
+

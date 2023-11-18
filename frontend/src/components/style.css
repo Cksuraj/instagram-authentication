@@ -101,6 +101,12 @@ button {
 .forgot {
     align-self: center;
     gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: 2px thick #262626;
 }
 
 .forgot span {
@@ -145,8 +151,12 @@ button {
 
 .signup{
     color:#2291ec;
+    text-decoration: none;
+    background-color: white;
 }
 .signin{
+    text-decoration: none;
+    background-color: white;
     color:#2291ec;
 }
 

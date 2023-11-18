@@ -21,10 +21,10 @@ This project implements user authentication for an Instagram-like application us
 
 ## Technologies Used
 
-- React
-- Node.js
-- Express
-- MongoDB
+* React Frontend: Display User Details.
+* Node.js Backend: Powering our project with authentication processes.
+* Express Backend: The backend handles authentication requests with ease.
+* MongoDB: Storing user data efficiently, providing flexibility, and ensuring quick retrieval.
 
 ## API Endpoints
 

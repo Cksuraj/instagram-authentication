@@ -44,6 +44,10 @@ Usermodel.pre("save", async function (next) {
     return next();
   });
   
+
+
+
+  
   //  Genrating the web Tokens from the UserSchema 
   Usermodel.methods = {
     generateAuthToken() {
@@ -55,5 +59,8 @@ Usermodel.pre("save", async function (next) {
     }
 };
 
+
 module.exports=mongoose.model('User',Usermodel);     // exporting the mongoose.model
+
+
 

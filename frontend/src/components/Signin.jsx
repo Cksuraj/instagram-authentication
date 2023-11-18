@@ -20,6 +20,8 @@ export default function Signin() {
         {
           username,
           password,
+        },
+        {
           withCredentials: true,
           headers: {
             "Content-Type": "application/json",
@@ -59,7 +61,7 @@ export default function Signin() {
     <div className="instasign">
     <form className="container flex in" id="login-form" onSubmit={handleSubmit}>
       <ToastContainer/>
-      <h1>Instagram Signin</h1>
+      <h1>Instagram Sign in</h1>
       <div className="input-box flex">
         <label htmlFor="username">Username</label>
         <input
@@ -83,7 +85,7 @@ export default function Signin() {
       <button type="submit">Sign in</button>
       <div className="forgot flex">
         <span>Forgot Password?</span>
-        <NavLink  to="/signup"> <h4 className="signup">Signup</h4></NavLink>
+        <NavLink  to="/signup"> <button className="signup">Sign up</button></NavLink>
       </div>
     </form>
     </div>
